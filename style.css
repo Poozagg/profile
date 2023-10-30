@@ -1,0 +1,61 @@
+h1, h2{
+  color: #5e548e;
+}
+h3{
+  color: rgb(50, 175, 98);
+}
+.button-purple {
+  background-color: #5e548e;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.button-purple:hover {
+  background-color: #be6e7c;
+  text-decoration: underline;
+}
+body{
+  background-color:#ffd6ff48;
+  font-family:fantasy;
+  font-weight:300;
+  line-height: 1.5;
+}
+@media (max-width: 540px) {
+#container-center {
+  width: 550px;
+  margin: 30px auto;
+}
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  width: 500px;
+  margin: 30px auto;
+  text-align: center;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
+  border-radius: 5px
+}
+.fab {
+  color: lightgray;
+  letter-spacing: 20px;
+  font-size: 40px;
+}
+.fab:hover {
+  color: rgb(35, 126, 195);
+}
+.fa-brands {
+  color: lightgray;
+  letter-spacing: 20px;
+  font-size: 40px;
+}
+.fa-brands:hover {
+  color: rgb(35, 126, 195);
+}
+#profile-pic {
+  width: 150px;
+  border-radius: 50%;
+}
